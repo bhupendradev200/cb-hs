@@ -1,6 +1,6 @@
 {
     "club_house":[
-        {"code":"101","name":"Dosti_Club_house","pincode":"421004","address":"Vijay Nagar","city":"Thane","state":"Maharashtra","country":"India","active":"true","created_at":"2023-01-01T00:00:00.000Z","updated_at":"2023-01-01T00:00:00.000Z"}, 
+        {"code":"101","name":"Dosti_Club_house","pincode":"421004","address":"Vijay Nagar","city":"Thane","state":"Maharashtra","country":"India","active":"true","created_at":"2023-01-01T00:00:00.000Z","updated_at":"2023-01-01T00:00:00.000Z","email":"test@mgail.com"}, 
         {"code":"102","name":"Kalpataru","pincode":"421004","address":"Vijay Nagar","city":"Thane","state":"Maharashtra","country":"India","active":"true","created_at":"2023-01-01T00:00:00.000Z","updated_at":"2023-01-01T00:00:00.000Z"},
         {"code":"103","name":"Piramal","pincode":"421004","address":"Vijay Nagar","city":"Thane","state":"Maharashtra","country":"India","active":"true","created_at":"2023-01-01T00:00:00.000Z","updated_at":"2023-01-01T00:00:00.000Z"},
         {"code":"104","name":"Loadha_amara","pincode":"421004","address":"Vijay Nagar","city":"Thane","state":"Maharashtra","country":"India","active":"true","created_at":"2023-01-01T00:00:00.000Z","updated_at":"2023-01-01T00:00:00.000Z"}
@@ -21,11 +21,24 @@
         {"user_id":"7","level_id":3,"wing":"b","flat_no":902,"name":"Bhupendra Mestry","category":"adult","gender":"female"}
     ],
     "Facility":[
-        {"id":"","name":"Swimming Pool","timing":{"first-half":"07-11","second-half":"04:09"},"schedule":{"daily":false,"weekly":["sun","tue"],"monthly":true}}, 
-        {"id":"","name":"GYM","timing":{"first-half":"07-11","second-half":"04:11"},"schedule":{"daily":false,"weekly":true,"monthly":true}} 
-        {"id":"","name":"Indoor Games","timing":{"first-half":"07-11","second-half":"04:11"},"schedule":{"daily":true,"weekly":true,"monthly":true}} 
+        {"id":"1","name":"Swimming Pool","timing":{"first-half":"07-11","second-half":"04:09"},"schedule":{"daily":false,"weekly":["sun","tue"],"monthly":true},"auto_exit_hour":"2"}, 
+        {"id":"2","name":"GYM","timing":{"first-half":"07-11","second-half":"04:11"},"schedule":{"daily":false,"weekly":true,"monthly":true}} ,
+        {"id":"3","name":"Indoor Games","timing":{"first-half":"07-11","second-half":"04:11"},"schedule":{"daily":true,"weekly":true,"monthly":true}} 
         ],
     "employee":[
-        {"id":"2234","name":"anyemploy","type":"permenant","mobile":"9922667597"}
-    ]    
+        {"id":"101","name":"anyemploy","type":"permenant","mobile":"9922667597","permission":["user_create","assigne_duty","create_event","register_user","update_user","mark_attendance"]},
+        {"id":"202","name":"anyemploy","type":"temp","mobile":"9922667597"},
+        {"id":"203","name":"anyemploy","type":"temp","mobile":"9922667594"},
+        {"id":"204","name":"anyemploy","type":"temp","mobile":"9922667595"}
+    ],
+    "Permission":[
+        {"employee_id":"101","permission":["mark_attendance"],"Facility":[1,2],"expire_time":"09:00","active":"true"},
+        {"employee_id":"101","permission":["mark_attendance"],"Facility":[1,2],"expire_time":"09:00","active":"true"}
+    ],
+    "attendance":[
+        {"user_id":"5","date":"2023-01-01","in_time":"09:00","out_time":"11:00","status":"present","Facility":[2],"employee_id":"101","address":"PINE-A-902"},   
+        {"user_id":"6","date":"2023-01-01","in_time":"09:00","out_time":"11:00","status":"present","Facility":[1],"employee_id":"101","address":"PINE-A-902"},   
+        {"user_id":"1","date":"2023-01-01","in_time":"09:00","out_time":"11:00","status":"present","Facility":[1],"employee_id":"101","address":"PINE-A-902"}   
+    ]
+
 }
