@@ -1,0 +1,31 @@
+{
+    "club_house":[
+        {"code":"101","name":"Dosti_Club_house","pincode":"421004","address":"Vijay Nagar","city":"Thane","state":"Maharashtra","country":"India","active":"true","created_at":"2023-01-01T00:00:00.000Z","updated_at":"2023-01-01T00:00:00.000Z"}, 
+        {"code":"102","name":"Kalpataru","pincode":"421004","address":"Vijay Nagar","city":"Thane","state":"Maharashtra","country":"India","active":"true","created_at":"2023-01-01T00:00:00.000Z","updated_at":"2023-01-01T00:00:00.000Z"},
+        {"code":"103","name":"Piramal","pincode":"421004","address":"Vijay Nagar","city":"Thane","state":"Maharashtra","country":"India","active":"true","created_at":"2023-01-01T00:00:00.000Z","updated_at":"2023-01-01T00:00:00.000Z"},
+        {"code":"104","name":"Loadha_amara","pincode":"421004","address":"Vijay Nagar","city":"Thane","state":"Maharashtra","country":"India","active":"true","created_at":"2023-01-01T00:00:00.000Z","updated_at":"2023-01-01T00:00:00.000Z"}
+    ],
+    "level":[
+        { "id":1,  "code":"101","level":1,"name":"Cedar","wing":["a","b","c","d","e"]},
+        {  "id":2, "code":"101","level":1,"name":"Oak","wing":["a","b","c","d","e"]},
+        {  "id":3, "code":"101","level":1,"name":"PINE","wing":["a","b","c","d","e"]}
+    ],
+    
+    "users":[
+        {"user_id":"1","level_id":3,"wing":"a","flat_no":1,"name":"Devid Dsouza","category":"adult","gender":"male"},
+        {"user_id":"2","level_id":3,"wing":"a","flat_no":1,"name":"Temp Dsouza","category":"Sr Citizen","gender":"female"},
+        {"user_id":"3","level_id":3,"wing":"a","flat_no":1,"name":"Temp Dsouza","category":"Sr Citizen","gender":"female"},
+        {"user_id":"4","level_id":3,"wing":"b","flat_no":902,"name":"Temp2 Dsouza","category":"Sr Citizen","gender":"female"},
+        {"user_id":"5","level_id":3,"wing":"b","flat_no":902,"name":"Tempr Dsouza","category":"Sr Citizen","gender":"female"},
+        {"user_id":"6","level_id":3,"wing":"b","flat_no":902,"name":"Vedanga Mestry","category":"adult","gender":"male"},
+        {"user_id":"7","level_id":3,"wing":"b","flat_no":902,"name":"Bhupendra Mestry","category":"adult","gender":"female"}
+    ],
+    "Facility":[
+        {"id":"","name":"Swimming Pool","timing":{"first-half":"07-11","second-half":"04:09"},"schedule":{"daily":false,"weekly":["sun","tue"],"monthly":true}}, 
+        {"id":"","name":"GYM","timing":{"first-half":"07-11","second-half":"04:11"},"schedule":{"daily":false,"weekly":true,"monthly":true}} 
+        {"id":"","name":"Indoor Games","timing":{"first-half":"07-11","second-half":"04:11"},"schedule":{"daily":true,"weekly":true,"monthly":true}} 
+        ],
+    "employee":[
+        {"id":"2234","name":"anyemploy","type":"permenant","mobile":"9922667597"}
+    ]    
+}
