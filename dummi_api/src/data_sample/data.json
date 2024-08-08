@@ -31,9 +31,9 @@
         {"id":"203","name":"anyemploy","type":"temp","mobile":"9922667594"},
         {"id":"204","name":"anyemploy","type":"temp","mobile":"9922667595"}
     ],
-    "Permission":[
+    "permission":[
         {"employee_id":"101","permission":["mark_attendance"],"Facility":[1,2],"expire_time":"09:00","active":"true"},
-        {"employee_id":"101","permission":["mark_attendance"],"Facility":[1,2],"expire_time":"09:00","active":"true"}
+        {"employee_id":"102","permission":["mark_attendance"],"Facility":[1],"expire_time":"09:00","active":"true"}
     ],
     "attendance":[
         {"user_id":"5","date":"2023-01-01","in_time":"09:00","out_time":"11:00","status":"present","Facility":[2],"employee_id":"101","address":"PINE-A-902"},   
